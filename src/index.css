@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .btn{
+        @apply px-2 py-2 inline-block text-fourth bg-sec border-transparent font-bold hover:bg-transparent hover:text-sec hover:border-sec border-2
+    }
+    .nav-links{
+        @apply text-2xl md:text-base dark:text-white px-5 py-3 hover:text-fourth border-b-2 border-b-transparent hover:border-b-fourth
+}
+
+    @layer utilities { 
+        .circle{
+            display: flex;
+            width: 2em;
+            height: 2em;
+            background: gray;
+            border-radius:50%
+        }
+        #footer_links a{
+            @apply inline-block py-1 text-white;
+        }
+        #footer_links a:hover{
+            color:var(--color4)
+        }
+        #footer_social_links a{
+            @apply flex w-10 aspect-square bg-gray-900 justify-center items-center text-white;
+        }
+        #footer_social_links a:hover{
+            background: var(--color4);
+            @apply text-gray-950;
+        }
+    }
+}
