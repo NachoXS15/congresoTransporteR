@@ -63,7 +63,7 @@ interface members {
       id: 1,
       nombre: "Mercedes-Benz",
       url: "https://www.mercedes-benz.com.ar/",
-      img: "../../assets/img/sponsors/mercades_logos.png",
+      img: "mercedes_logos.png",
     },
     {
       id: 2,
