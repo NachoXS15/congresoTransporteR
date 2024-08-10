@@ -7,11 +7,11 @@ export default function Banner() {
                 <h1 className="text-2xl font-semibold mt-5 md:mt-0 md:mb-10">
                     <span>
                         Desde
-                        <span className="font-bold text-3xl italic md:text-5xl">25 Septiembre</span> <br />
+                        <span className="font-bold text-3xl italic md:text-5xl"> 25 Septiembre</span> <br />
                     </span>
                     <span className="ml-5 md:ml-24">
                         hasta el
-                        <span className="font-bold text-3xl italic md:text-5xl">30 Septiembre</span>
+                        <span className="font-bold text-3xl italic md:text-5xl"> 30 Septiembre</span>
                     </span>
 
                 </h1>

@@ -31,5 +31,20 @@
             background: var(--color4);
             @apply text-gray-950;
         }
+
+        .form_control{
+            @apply flex flex-col md:flex-row my-2;
+            & label{
+                @apply w-1/5;
+            }
+            & *:not(label){
+                @apply md:w-4/5 text-gray-950 px-2 py-1;
+            }
+            & textarea{
+                line-height: 1.5;
+                min-height: 2.5lh;
+                
+            }
+        }
     }
 }
