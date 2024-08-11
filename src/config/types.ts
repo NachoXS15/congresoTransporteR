@@ -1,13 +1,13 @@
 export interface StaffProps {
-    nombre: string,
-    img: string,
-    rol: string,
-    extra: string
+    nombre: string | undefined,
+    img: string | undefined,
+    rol: string | undefined,
+    extra: string | undefined
 }
 
 export interface PatreonProp{
     nombre: string,
-    img: string,
+    img: string | undefined,
     alt: string,
     link: string
 }

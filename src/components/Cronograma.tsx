@@ -4,7 +4,7 @@ export default function Cronograma() {
     return (
         <section id="cronograma">
             <div className="w-full md:container mx-auto px-5 py-2">
-                <Titulo text="Cronograma" />
+                <Titulo text="Cronograma" color="white" />
                 <h2>Dia 1</h2>
                 <div className="overflow-hidden w-full">
                     <ol className="items-center sm:flex my-5 overflow-x-auto md:pb-5">

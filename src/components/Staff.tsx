@@ -7,7 +7,7 @@ export default function Staff() {
             <p>Información requerida: descripción del staff </p>
             <div id="cards" className="flex flex-col sm:flex-row gap-0 sm:gap-1 md:gap-5 justify-start">
                 {directivos.map(card => (
-                    <Card nombre={card.nombre} rol={card.rol} extra={card.extra} />
+                    <Card nombre={card.nombre} rol={card.rol} extra={card.extra} img="" />
                 ))}
             </div>
         </section>
